@@ -22,7 +22,7 @@ const TimePeriodCalculaTor = () => {
     let secondDate = new Date(endDate);
     let finalDate = Number(secondDate.getTime()) - Number(firstDate.getTime());
     let years = parseInt((secondDate - firstDate) / (1000 * 60 * 60 * 24) / 365);
-    let months = parseInt((secondDate - firstDate) / (1000 * 3600 * 24)%31)
+    let months = parseInt((secondDate - firstDate) / (1000 * 3600 * 24) % 31)
     let days = parseInt((secondDate - firstDate) / (1000 * 60 * 60 * 24) %24);
     // let day = Math.floor(days * 31);
     // console.log('day',days, day);
