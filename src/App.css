@@ -1,0 +1,41 @@
+.timePeriod {
+  margin-top: 3rem;
+  /* text-align: center; */
+}
+
+body{
+  background-color: beige;
+  color: forestgreen;
+  margin-left: 24rem;
+}
+
+label{
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  font-weight: bold;
+  /* margin-left: 2rem; */
+
+}
+
+input[type="datetime-local"] {
+  padding: 12px;
+  width: 30%;
+
+}
+
+button{
+  background-color: beige;
+  padding: 9px 8px;
+  margin-top: 2rem;
+  margin-left: 16rem;
+  color: #5C4033;
+  font-weight: bold;
+  border-radius: 2rem;
+  border: 2px solid green;
+  cursor: pointer;
+}
+p, h1{
+  font-weight: bold;
+  margin-left: 9.9rem;
+}
